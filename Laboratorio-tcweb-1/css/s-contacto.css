@@ -1,0 +1,43 @@
+form { /* Formulario */
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    width: 60%;
+    margin: 0 auto;
+    color: #4F4F4F;
+}
+fieldset {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+legend {
+    font-size: 2rem;
+}
+label {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #E1E1E1;
+    margin-bottom: 2rem;
+    border: none;
+}
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+#btn { 
+    width: 10rem;
+    height: 2.5rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+    background: rgb(224,135,9);
+    border: 0;
+}

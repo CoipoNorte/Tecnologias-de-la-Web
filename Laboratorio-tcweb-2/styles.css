@@ -1,0 +1,274 @@
+* { /*----------Limpiar pag----------*/
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+h4 {
+    font-size: 20px;
+    padding-top: 18px;
+    padding-left: 18px;
+}
+body {
+    background-image: url('img/Coipo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cajatrans {
+    background: #1a1a1aCC;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+}
+header { /*----------Barra de navegacion----------*/
+    background: #333;
+    width: 100%;
+    position: fixed;
+}
+header nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover {
+    transition-duration: 0.4s;
+    background: green;
+    border-radius: 0 20px 0 20px;
+}
+#inicio { /*----------Inicio----------*/
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+    margin-bottom: 8rem;
+    background: #1a1a1aCC;
+    width: 100%;
+}
+#inicio h1 {
+    font-size: 4rem;
+    font-weight: 700; 
+}
+#inicio h2 {
+    font-size: 2rem;
+}
+.tllr2 { /*----------Taller 2----------*/
+    margin-bottom: 3rem;
+}
+.imgs img {
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.cbtn_n {
+    border: none;
+    width: 40px;
+    border-radius: 20px;
+    outline: none;
+    color: #7e7e7e;
+    font-size: 35px;
+}
+.caja-cal {/*----------Calculadora----------*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cal {
+    width: 40%;
+    height: 50vh;
+    background-color: #aaaaaa;
+    border-radius: 20px;
+    padding: 20px 15px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 85px;
+    grid-gap: 15px;
+}
+.screen {
+    background-color: #414141;
+    border-radius: 20px;
+    padding: 15px;
+    grid-column: 1 / 5;
+}
+#result {
+    background: none;
+    color: white;
+    border: none;
+    padding: 0;
+    font-size: 50px;
+    width: 100%;
+}
+.btn-cal  {
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+    color: #7e7e7e;
+    font-size: 35px;
+}
+.operators {
+    background-color: #fffb88;
+}
+.equal {
+    background-color: #6dc9ff;
+}
+.clean {
+    background-color: #98f8ab;
+}
+.delete {
+    background-color: rgb(250, 190, 79);
+}
+.point {
+    background-color: rgb(255, 133, 174);
+}
+.btn-cal:hover {
+    transition-duration: 0.4s;
+    background-color: #ffb497;
+    color: white;
+}
+.operators:hover {
+    transition-duration: 0.4s;
+    background-color: #fffc34;
+    color: black;
+}
+.equal:hover {
+    transition-duration: 0.4s;
+    background-color: #45b8fa;
+    color: white;
+}
+.clean:hover {
+    transition-duration: 0.4s;
+    background-color: #66f789;
+    color: white;
+}
+.delete:hover {
+    transition-duration: 0.4s;
+    background-color: orange;
+    color: white;
+}
+.point:hover {
+    transition-duration: 0.4s;
+    background-color: rgb(255, 111, 159);
+    color: white;
+}
+.caja-cen { /*----------Contador----------*/
+    margin: 0 auto;
+    width: 50%;
+}
+.btn-cont {
+    border-radius: 20px;
+    outline: none;
+    color: #7e7e7e;
+    font-size: 40px;
+}
+.btn-cont:hover {
+    transition-duration: 0.4s;
+    background-color: #ffb497;
+    color: white;
+}
+.caja-mapa { /*----------API----------*/
+    height: 450px;
+    padding: 20px;
+}
+#mapa-api {
+    height: 100%;
+    border: none;
+}
+table { /*----------Tabla para el catalogo----------*/
+    background-color: #E1E1E1;
+    width: 80%;
+    margin: 0 auto;
+    color: #4F4F4F;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+#cata {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+th, td {
+    padding: 10px;
+}
+td img {
+    width: 250px;
+    height: 150px;
+}
+.descrp {
+    text-align: left;
+    padding-left: 40px;
+}
+.zona {
+    font-weight: 700;
+    color: green;
+}
+form { /*----------Formulario----------*/
+    padding-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+fieldset {
+    padding: 2rem 8rem;
+    border-radius: 20px;
+}
+legend {
+    font-size: 2rem;
+}
+label {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+input:not([type="submit"]),
+textarea {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #E1E1E1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.btn-form { 
+    border: none;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 15px;
+    font-weight: 700;
+    outline: none;
+    background: rgb(224,135,9);
+    font-size: 1.6rem;
+    color: white;
+}
+.btn-form:hover {
+    transition-duration: 0.4s;
+    background-color: green;
+}
+footer { /*----------Pie de pag----------*/
+    background: #1a1a1aCC;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+/*---------------uwu---------------*/

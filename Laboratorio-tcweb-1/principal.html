@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <title>Felix-idad</title>
+        <style type="text/css">
+            #inicio { /*Inicio*/
+                padding-top: 8rem;
+                padding-bottom: 10rem;
+            }
+            #inicio h1 {
+                font-size: 4rem;
+                font-weight: 700;
+                padding-bottom: 2rem;
+            }
+            #inicio h2 {
+                font-size: 2rem;
+                padding-bottom: 2rem;
+            }
+            .imagenes { /*imgs*/
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+                margin: 0 auto;
+                width: 80%;
+            }
+            .imagenes img { 
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+        </style>
+        <link rel="stylesheet" href="css/s-tyle.css">
+        <link rel="stylesheet" href="css/s-catalogo.css">
+        <link rel="stylesheet" href="css/s-contacto.css">
+    </head>
+    <body>
+        <!--NAVEGACION-->
+        <header>
+            <a class="logo" href="#inicio">
+                <img src="img/fla.PNG" alt="Ups!">
+            </a>
+            <div>
+                <ul>
+                    <li><a href="principal.html">Principal</a></li>
+                    <li><a href="catalogo.html">Catalogo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <!--INICIO-->
+        <div class="principal">
+            <div id="inicio">
+                <h1>CONCESIONARIA DE AUTOS</h1>
+                <h2>Una muestra de <span style="color: salmon;">los mejores modelos</span> del mercado!</h2>
+                <br>
+                <p><h3>Si desea acceder al catálogo de autos completo o contactarnos inmediatamente haga clic en el apartado deseado mediante nuestro menú de navegación.</h3></p>
+            </div>
+            <br>
+
+            <div class="imagenes">
+                <img src="img/auto1.jpg" alt="Ups!">
+                <img src="img/auto3.jpg" alt="Ups!">
+                <img src="img/auto2.jpg" alt="Ups!">
+            </div>
+        </div>
+
+        <!--MINI-CATALOGO-->
+        <div class="principal">
+            <h1>LO NUEVO DEL CATÁLOGO</h1>
+            <h2>Una muestra de los <span style="color: salmon;">nuevos modelos</span> disponibles</h2>
+            <br><br>
+
+            <table>
+                <tr>
+                  <th scope="col">Imagen</th>
+                  <th scope="col">Vehículo</th>
+                  <th scope="col">Precio</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="catalogo.html"><img src="img/3.jpg" alt="plop!" /></a>
+                    </td>
+                    <td class="descrp">
+                        <p>BUGATTI VEYRON</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </td>
+                    <td class="precio">
+                        <p>$ 250.000.000</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="catalogo.html"><img src="img/6.jpg" alt="plop!" /></a>
+                    </td>
+                    <td class="descrp">
+                        <p>TESLA S</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </td>
+                    <td class="precio">
+                        <p>$ 57.000.000</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!--FORMULARIO DE CONTACTO-->
+        <div class="principal">
+            <h1>CONTÁCTECNOS</h1>
+            <h2>Rellene el siguiente formulario para adquirir <span style="color: salmon;" >su nuevo Vehículo!</span></h2>
+            <br>
+            
+            <form action="">
+                <fieldset class="contenedor">
+                    <legend>Información</legend>
+                    <br>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Tu Nombre">
+        
+                    <label for="email">e-mail:</label>
+                    <input type="email" id="email" placeholder="@">
+
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" id="telefono" placeholder="Tu Telefono">
+
+                    <label for="opciones">Vehiculo</label>
+                    <select>
+                        <option value="" disabled selected></option>
+                        <option value="N1">FORD MUSTANG SHELBY GT500</option>
+                        <option value="N2">LAMBORGHINI CENTENARIO ROADSTER</option>
+                        <option value="N3">BUGATTI VEYRON</option>
+                        <option value="N4">FERRARI 812 Superfast</option>
+                        <option value="N5">AUDI R8</option>
+                        <option value="N6">TESLA S</option>
+                        <option value="N6">PORSCHE GT3</option>
+                    </select>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea></textarea>
+
+                    <input id="btn" type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+        
+        <div class="foot">
+            <h3> Esta pag fue realizada en conjunto a traves de discord por el grupo Felix-idad </h3>
+            <br>
+            <h3>La felicidad al alcance de un enlace, contactenos ;) </h3>
+        </div>
+    </body>
+</html>

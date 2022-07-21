@@ -1,0 +1,55 @@
+* { /* Limpiar pag */
+    padding: 0;
+    margin: 0;
+}
+body { /*BG*/
+    background: rgb(245, 245, 245);
+}
+.principal { /* Contenido prinicpal de la pag */
+    font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+    text-align: center;
+    padding-top: 8em;
+    padding-bottom: 3em;
+}
+header { /* Barra de navegacion */
+    background: #333;
+    width: 100%;
+    position: fixed;
+}
+header div {
+    float: right;
+}
+div ul {
+    list-style: none;
+}
+div ul li {
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+div ul li a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+div ul li:hover {
+    background: salmon;
+}
+.logo img {
+    padding: 7px;
+}
+.foot { /* Pie de pag */
+    color: white;
+    background: #333;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.foot:hover {
+    background: salmon;
+    color: #333;
+}

@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
+.nav-link:hover {
+    color: white;
+}
+nav ul li:hover {
+    transition-duration: 0.4s;
+    background: #dc3545;
+    border-radius: 5px;
+}
+.titulos {
+    font-size: 4rem;
+    font-weight: 700; 
+}
+/*---------------uwu---------------*/

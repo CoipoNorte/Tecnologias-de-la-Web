@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Felix-idad</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="init()">
+	<!--NAVEGACION-->
+	<header>		
+		<nav>
+            <ul>
+                <li><a href="#inicio">Principal</a></li>
+				<li><a href="#bom">BOM</a></li>
+				<li><a href="#dom">DOM</a></li>
+				<li><a href="#api">API</a></li>
+                <li><a href="#cata">Fauna</a></li>
+                <li><a href="#cont">Contacto</a></li>
+            </ul>
+        </nav>
+		<h4><span id="hr">0</span> : <span id="min">0</span> : <span id="seg">0</span></h4>
+	</header>
+
+	<!--INICIO-->
+    <section id="inicio">
+		<h1>CONOZCA A DON FOLIO</h1>
+		<h2>¡Y el maravilloso <span style="color: salmon;">Coipo</span> que roba nuestros codigos!</h2>
+		<br>
+		<h3>Bienvenido a nuestro Taller 2, <span style="color: salmon;" id="denos un 7.0 porfis"></span> ;)</h3>
+	</section>
+
+	<!--BOM-->
+	<section id="bom" class="tllr2">
+		<div class="cajatrans" id="obj">
+			<h1>BOM</h1>
+			<h2>La sig informacion es parte del <span style="color: salmon;">Objetivo 1</span> del taller 2</h2>
+			<br><br>
+			
+			<h2><span style="color: salmon;">Location</span></h2>
+				<h3 id="loc"></h3>
+			<h2><span style="color: salmon;">SO Navigator</span></h2>
+				<h3 id="so"></h3>
+			<h2><span style="color: salmon;">Resolucion</span></h2>
+				<h3 id="sc"></h3>
+			<h2><span style="color: salmon;">Objeto</span></h2>
+			
+			<div class="imgs">
+				<img src="img/poto.PNG">
+				<img src="img/poto_o.PNG">
+				<img src="img/potx_x.PNG">
+			</div>
+			
+			<script>
+				const btn = document.createElement("input");
+				btn.className = "cbtn_n";
+				btn.id = "ibtn_n";
+				btn.type = "button";
+				btn.value = "btn";
+								
+				btn.onclick = function() {
+					btn.removeAttribute("id");
+					btn.style.background = "#FF0000";
+				}
+				btn.onmouseover = function() {
+					btn.style.background = "#00FF00";
+				}
+				btn.onmousemove = function() {
+					btn.style.background = "#0000FF";
+				}
+						
+				console.log(btn);
+				document.querySelector("#obj").appendChild(btn);
+			</script>
+		</div>
+	</section>
+
+	<!--DOM-->
+	<section id="dom" class="tllr2">
+		<div class="cajatrans">
+			<h1>DOM</h1>
+			<h2>La sig informacion es parte del <span style="color: salmon;">Objetivo 2</span> del taller 2</h2>
+			<br><br>
+
+			<h2><span style="color: salmon;">Calculadora</span></h2>
+			<div class="caja-cal">
+				<div class="cal">
+					<div class="screen">
+						<input type="text" placeholder="0" disabled id="result">
+					</div>
+					<button class="btn-cal" onclick="get_Nums(this)">7</button>
+					<button class="btn-cal" onclick="get_Nums(this)">8</button>
+					<button class="btn-cal" onclick="get_Nums(this)">9</button>
+					<button class="btn-cal operators" id="Suma">+</button>
+					<button class="btn-cal" onclick="get_Nums(this)">4</button>
+					<button class="btn-cal" onclick="get_Nums(this)">5</button>
+					<button class="btn-cal" onclick="get_Nums(this)">6</button>
+					<button class="btn-cal operators" id="Resta">-</button>
+					<button class="btn-cal" onclick="get_Nums(this)">1</button>
+					<button class="btn-cal" onclick="get_Nums(this)">2</button>
+					<button class="btn-cal" onclick="get_Nums(this)">3</button>
+					<button class="btn-cal operators" id="Multiplicar">*</button>
+					<button class="btn-cal" onclick="get_Nums(this)">0</button>
+					<button class="btn-cal operators" id="Increase">++</button>
+					<button class="btn-cal operators" id="Decrease">--</button>
+					<button class="btn-cal operators" id="Dividir">/</button>
+					<button class="btn-cal clean" id="Reset">C</button>
+					<button class="btn-cal equal" id="Igual">=</button>
+					<button class="btn-cal delete" id="Borrar">←</button>
+					<button class="btn-cal point" id="Punto" onclick="get_Nums(this)">.</button>
+				</div>
+			</div>
+
+			<h2><span style="color: salmon;">Contador Closures</span></h2>
+			<div class="caja-cen">
+				<input type="button" value="0" class="btn-cont" id="Cont" onclick="ContarUwU(this)">
+			</div>
+		</div>
+	</section>
+
+	<!--API-->
+	<section id="api" class="tllr2">
+		<div class="cajatrans">
+			<h1>API</h1>
+			<h2>La sig informacion es parte del <span style="color: salmon;">Objetivo 3</span> del taller 2</h2>
+			<br><br>
+			
+			<h2><span style="color: salmon;">Geolocalización</span></h2>
+				<h3 id="ubi"></h3>
+				<div class="caja-mapa">
+					<div id="mapa-api"></div>
+				</div>
+				
+			<h2><span style="color: salmon;">LocalStorage</span></h2>
+				<h3 id="LocalS"></h3>
+			
+			<h2><span style="color: salmon;">Diagrama DOM</span></h2>
+			<div class="imgs">
+				<img src="img/diagrama-dom-body.png">
+				<img src="img/diagrama-dom-head.png">
+			</div>
+		</div>
+	</section>
+
+	<!--CATALOGO-->
+    <section id="cata">
+		<div class="cajatrans">
+			<h1>ANIMALES QUE PROTEGE FELIXIDAD</h1>
+			<h2>Una muestra de los <span style="color: salmon;">animales nativos</span> de Chile</h2>
+			<br><br>
+
+			<table>
+				<tr>
+					<td><img src="img/1.jpg" alt="plop!"/></td>
+					<td class="descrp">
+						<p>MONITO DEL MONTE - COPITO DE NIEVE</p>
+						<br>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					</td>
+					<td class="zona"><p>zona sur</p></td>
+				</tr>
+			
+				<tr>
+					<td><img src="img/2.jpg" alt="plop!"/></td>
+					<td class="descrp">
+						<p>ZORRO CHILOTE - FELIX CALLE C</p>
+						<br>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					</td>
+					<td class="zona"><p>zona sur</p></td>
+				</tr>
+
+				<tr>
+					<td><img src="img/4.jpg" alt="plop!"/></td>
+					<td class="descrp">
+						<p>HUILIN - WILLIAN HERBAS</p>
+						<br>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					</td>
+					<td class="zona"><p>zona sur</p></td>
+				</tr>
+			</table>
+			<br><br>
+		</div>
+    </section>
+
+    <!--FORMULARIO DE CONTACTO-->
+    <section id="cont">
+		<div class="cajatrans">
+			<h1>CONTÁCTECNOS</h1>
+			<h2>Rellene el siguiente formulario para conocer a <span style="color: salmon;" >Don Folio!</span></h2>
+			<br>
+			
+			<form action="">
+				<fieldset class="contenedor">
+					<legend>Información</legend>
+					<br>
+
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" placeholder="Tu Nombre">
+		
+					<label for="email">e-mail:</label>
+					<input type="email" id="email" placeholder="@">
+
+					<label for="telefono">Teléfono:</label>
+					<input type="tel" id="telefono" placeholder="Tu Telefono">
+
+					<label for="mensaje">Mensaje:</label>
+					<textarea></textarea>
+
+					<input class="btn-form" type="submit" value="Enviar">
+				</fieldset>
+			</form>
+		</div>
+		<br><br><br><br>
+    </section>
+	   
+    <footer>
+        <h3> Esta pag fue realizada en conjunto a traves de discord por el grupo Felix-idad </h3>
+        <br>
+        <h3>La felicidad al alcance de un enlace, contactenos ;) </h3>
+    </footer>
+
+	<script src="index.js"></script>
+	<script
+    	async
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2M5UjEya5ouCxxhLeMbRtwxJOwM2m-Kg&callback=getLocation"
+    ></script>
+</body>
+</html>

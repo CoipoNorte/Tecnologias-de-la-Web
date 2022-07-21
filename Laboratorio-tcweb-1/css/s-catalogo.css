@@ -1,0 +1,29 @@
+table { /*Tabla para el catalogo*/
+    background-color: #E1E1E1;
+    width: 80%;
+    margin: 0 auto;
+    color: #4F4F4F;
+    text-align: center;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+tr th { 
+    font-size: 24px;
+    height: 50px;
+    background: #333;
+    color: white;
+}
+td img {
+    width: 250px;
+    height: 150px;
+}
+.descrp {
+    text-align: left;
+    padding-left: 40px;
+}
+.precio {
+    font-weight: 700;
+}

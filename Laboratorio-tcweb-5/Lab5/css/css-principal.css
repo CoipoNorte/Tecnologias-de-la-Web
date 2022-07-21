@@ -1,0 +1,35 @@
+
+:root {
+    --miOpacidad2: #1a1a1a42;
+}
+.caja-trans {
+    background: var(--miOpacidad2);
+}
+
+/* Estilos globales
+-------------------------------------------------- */
+.f-principal {
+    background-image: url('../fondos/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+/* Navegacion
+-------------------------------------------------- */
+.navbar-brand {
+    letter-spacing: 5px;
+}
+nav div ul li {
+    margin-right: 15px;
+    font-size: 18px;
+}
+nav div ul li:hover {
+    transition-duration: 0.6s;
+    letter-spacing: 5px;
+}
+.d-flex a {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}

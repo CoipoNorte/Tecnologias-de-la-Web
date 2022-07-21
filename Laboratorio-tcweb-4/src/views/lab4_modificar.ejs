@@ -1,0 +1,38 @@
+<%- include ('partials/_header') %>
+<%- include ('partials/_nav') %>
+    <main>
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <div class="row d-flex justify-content-center text-center">
+                <div class="col-md-12 text-white">
+                    <!--FORMULARIO-->
+                    <form action="/modificar/<%= task._id %>" method="post">
+                        <h2>Modificar - Producto</h2>
+
+                        <div class="mb-3">
+                            <label class="form-label">Nombre</label>
+                            <input class="form-control" type="text" name="nombre" value="<%= task.nombre %>">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Precio</label>
+                            <input class="form-control" type="text" name="precio" value="<%= task.precio %>">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Imagen</label>
+                            <input class="form-control" type="text" name="imagen" value="<%= task.imagen %>">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Categoria</label>
+                            <input class="form-control" type="text" name="categoria" value="<%= task.categoria %>">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Descripcion</label>
+                            <input class="form-control" type="text" name="descripcion" value="<%= task.descripcion %>">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </main>
+<%- include ('partials/_footer') %>
