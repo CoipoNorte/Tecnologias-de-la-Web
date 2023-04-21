@@ -1,19 +1,32 @@
-# Laboratorio-tcweb-5
+# Laboratorio TCWEB 5
 
-#### Introducción:
-Laboratorio 5 **Tecnología Web** consiste en una página administrar productos, para ello utilizamos diferentes herramientas del desarrollo web, tales como **HTML, CSS, PHP & Bootstrap **.
+Este es el repositorio para el quinto laboratorio de la asignatura de Tecnologías de la Web del semestre de primavera 2021 en la Universidad de Tarapacá.
 
-Algunas imagenes sobre el laboratorio.
+## Descripción
 
-![](https://github.com/CoipoNorte/Laboratorio-tcweb-5/blob/main/lab5tw_1.png?raw=true)
+En este laboratorio se trabaja con Node.js y Express para crear una aplicación web simple que permita añadir y eliminar tareas. La aplicación utiliza una base de datos MongoDB para almacenar las tareas.
 
-![](https://github.com/CoipoNorte/Laboratorio-tcweb-5/blob/main/lab5tw_2.png?raw=true)
+## Estructura del repositorio
 
-![](https://github.com/CoipoNorte/Laboratorio-tcweb-5/blob/main/lab5tw_3.png?raw=true)
+El repositorio se divide en las siguientes carpetas y archivos:
 
-![](https://github.com/CoipoNorte/Laboratorio-tcweb-5/blob/main/lab5tw_4.png?raw=true)
+- `index.js`: Archivo principal que contiene el código de Node.js y Express para la aplicación web.
+- `views/`: Carpeta que contiene los archivos EJS para renderizar las vistas de la aplicación web.
+- `public/`: Carpeta que contiene los archivos estáticos (CSS, JS, imágenes) utilizados en la aplicación web.
+- `package.json`: Archivo que contiene información sobre el proyecto y las dependencias de Node.js necesarias para ejecutarlo.
+- `README.md`: Archivo que contiene información sobre el laboratorio.
 
-<h3 align="left">Lenguajes y Herramientas:</h3>
+## Cómo utilizar este repositorio
+
+1. Descarga o clona este repositorio en tu ordenador.
+2. Abre una terminal en la carpeta del repositorio y ejecuta `npm install` para instalar las dependencias de Node.js necesarias para ejecutar la aplicación.
+3. Ejecuta `node index.js` para iniciar la aplicación web en tu navegador web.
+4. Observa cómo la aplicación permite añadir y eliminar tareas y cómo utiliza la base de datos MongoDB para almacenar las tareas.
+5. Abre los archivos EJS en tu editor de código favorito para ver y editar las vistas de la aplicación web.
+6. Abre el archivo `index.js` en tu editor de código favorito para ver y editar el código de Node.js y Express utilizado en la aplicación web.
+
+
+## Lenguajes y Herramientas
 <p align="left">
     <a href="https://www.w3schools.com/css/" target="_blank">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
