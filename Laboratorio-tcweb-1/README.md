@@ -1,17 +1,31 @@
-# Laboratorio-tcweb-1
+# Laboratorio TCWEB 1
 
-#### Introducción:
-Laboratorio 1 **Tecnología Web** consiste en una página para venta de autos, para ello utilizamos diferentes herramientas del desarrollo web, tales como **HTML & CSS**.
+Este es el repositorio para el primer laboratorio de la asignatura de Tecnologías de la Web del semestre de primavera 2021 en la Universidad de Tarapacá.
 
-Algunas imagenes sobre el laboratorio.
+## Descripción
 
-![](https://raw.githubusercontent.com/CoipoNorte/Laboratorio-tcweb-1/main/lab1tw_1.png)
+Este laboratorio se centra en la creación de una página web sencilla utilizando HTML y CSS. La página web debe contener al menos tres secciones: una cabecera, un cuerpo y un pie de página. Cada sección debe tener su propio estilo, utilizando diferentes técnicas de diseño con CSS.
 
-![](https://raw.githubusercontent.com/CoipoNorte/Laboratorio-tcweb-1/main/lab1tw_2.png)
+## Estructura del repositorio
 
-![](https://raw.githubusercontent.com/CoipoNorte/Laboratorio-tcweb-1/main/lab1tw_3.png)
+El repositorio se divide en las siguientes carpetas y archivos:
 
-<h3 align="left">Lenguajes y Herramientas:</h3>
+- `index.html`: Archivo principal que contiene la estructura HTML de la página web.
+- `style.css`: Archivo de estilo que contiene las reglas CSS para dar estilo a la página web.
+- `img/`: Carpeta que contiene las imágenes utilizadas en la página web.
+- `README.md`: Archivo que contiene información sobre el laboratorio.
+
+## Cómo utilizar este repositorio
+
+1. Descarga o clona este repositorio en tu ordenador.
+2. Abre el archivo `index.html` en tu navegador web para ver la página web.
+3. Abre el archivo `style.css` en tu editor de código favorito para ver y editar las reglas CSS.
+
+## Contribuciones
+
+Este repositorio es personal y no acepta contribuciones. Sin embargo, si tienes sugerencias o comentarios, puedes enviar un correo electrónico al autor.
+
+## Lenguajes y Herramientas
 <p align="left">
     <a href="https://www.w3schools.com/css/" target="_blank">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
