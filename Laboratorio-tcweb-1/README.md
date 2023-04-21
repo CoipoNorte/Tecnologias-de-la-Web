@@ -21,10 +21,6 @@ El repositorio se divide en las siguientes carpetas y archivos:
 2. Abre el archivo `index.html` en tu navegador web para ver la página web.
 3. Abre el archivo `style.css` en tu editor de código favorito para ver y editar las reglas CSS.
 
-## Contribuciones
-
-Este repositorio es personal y no acepta contribuciones. Sin embargo, si tienes sugerencias o comentarios, puedes enviar un correo electrónico al autor.
-
 ## Lenguajes y Herramientas
 <p align="left">
     <a href="https://www.w3schools.com/css/" target="_blank">
